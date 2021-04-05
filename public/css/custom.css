@@ -1,0 +1,441 @@
+@media all and (min-device-width:280px) and (max-device-width:640px) {
+
+    #banner .gds-right-10-px,
+    div#request-banner .gds-right-10-px {
+        right: 12px;
+    }
+
+}
+
+
+@media all and (min-device-width:768px) and (max-device-width:1023px) {
+
+    #banner .gds-right-10-px,
+    div#request-banner .gds-right-10-px {
+        position: relative;
+        right: 20px;
+    }
+}
+
+@media all and (orientation: landscape) {
+
+    #banner .gds-right-10-px,
+    div#request-banner .gds-right-10-px {
+        position: relative;
+        right: 12px;
+    }
+}
+
+.gds-form-input__icon-container {
+    right: 12px;
+}
+
+#banner .gds-heading--l,
+div#request-banner .gds-heading--l {
+    font-family: BIAntiquaIIMl;
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 1.27;
+    margin-bottom: 10px !important;
+}
+
+.helperText {
+
+    font-size: 14px;
+    line-height: 1.71;
+    color: #546372;
+}
+
+span.gds-icon.gds-icon--primary.gds-icon--m.gds-icon--base_check {
+    position: relative;
+    left: 15px;
+}
+
+#confirm-1--inner-wrapper {
+    padding: 0px 20px 0px 20px;
+
+}
+
+.gds-form-input__label .gds-paragraph--spacer-s {
+    padding: 0px 0px 16px 20px;
+
+}
+
+div#agree-terms .text-comp {
+    color: #546372;
+    padding: 0px 20px;
+}
+
+.gds-btn-wrapper {
+    position: relative;
+    bottom: 40px;
+}
+
+#form-comp {
+    margin-bottom: 0px !important;
+}
+
+#btn-comp {
+    padding-left: 20px;
+    margin-top: 70px;
+}
+
+.gds-inline-menu li.padding-right-20-px {
+    padding-right: 20px;
+}
+
+.gds-footer.contrast p {
+    font-size: 14px;
+    line-height: 1.43;
+    color: #ffffff;
+
+}
+
+::placeholder {
+    color: #2c333a;
+}
+
+.gds-notification--error {
+    border-left: 4px solid;
+    border-left-color: #c00;
+}
+
+
+@media screen and (min-width: 768px) {
+    .gds-notification--error {
+        width: 70%;
+    }
+
+    .gds-notification {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .padding-right-25per {
+        padding-right: 25%;
+
+    }
+
+    div#terms-of-use {
+        background-color: #001a33;
+    }
+
+    .terms-heading {
+        padding: 50px 0px 30px 0px;
+        font-family: BIAntiquaIIMl;
+        font-size: 44px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.27;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+
+
+    /* .padding-inherit{
+        padding: inherit !important;
+        } */
+}
+
+.padding-bot-10px {
+    padding-bottom: 10px;
+    padding-top: 0px !important;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.underlined {
+    text-decoration: none;
+    border-bottom: solid 1.2px #0066cc;
+    color: #2c333a;
+}
+
+.thank-text {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.33;
+}
+
+h3.gds-heading.gds-heading--align-left.gds-heading--m {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 2.5;
+    color: #2c333a;
+}
+
+p.gds-paragraph.gds-paragraph--base.gds-paragraph--align-left.gds-paragraph--.gds-paragraph--spacer-m {
+    font-size: 16px;
+    line-height: 24px;
+    color: #2c333a;
+    letter-spacing: 0;
+    font-weight: normal;
+}
+
+.gds-metanav .gds-metamenu__item.utility {
+    border-left: 1px solid #d6ebff;
+}
+
+.gds-metanav .left .gds-metamenu__item,
+.gds-metanav .right .gds-metamenu__item,
+.gds-metanav .gds-metamenu__item a .gds-metamenu__item,
+.gds-metanav .gds-dropdown-menu .label .gds-metamenu__item {
+    color: #546372;
+}
+
+.text-norm {
+    font-size: 16px;
+    font-weight: normal !important;
+    line-height: 1.5;
+    color: #2c333a;
+}
+
+.gds-table thead tr:first-child th:first-child {
+    border-left: 1px solid #c5ccd3;
+    text-align: center !important;
+
+}
+
+.gds-table th,
+.gds-table td {
+
+    vertical-align: middle !important;
+}
+
+.gds-table thead tr:first-child th {
+    text-align: center !important;
+}
+
+.gds-table tr th {
+    border-right: 1px solid #c5ccd3;
+}
+
+.gds-table tr th {
+    border-left: 1px solid #c5ccd3;
+}
+
+.gds-table thead tr:first-child th:first-child {
+    border-right: 1px solid #c5ccd3;
+}
+
+.gds-table thead tr:first-child th:last-child {
+    text-align: center;
+}
+
+#gds-btn-to-right {
+    right: 20px;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+    color: #2c333a !important;
+}
+
+.required-margin-bottom-43p {
+    margin-bottom: 43px !important;
+}
+
+.gds-form-input__input {
+    border: 2px solid rgba(139, 153, 167, 0.4);
+    /*opacity: 0.6;*/
+}
+
+#banner .gds-paragraph--spacer-l {
+    margin-bottom: 10px;
+}
+
+.margin-bot-10 {
+    margin-bottom: 10px !important;
+}
+
+ul.list-text {
+    font-size: 16px !important;
+    line-height: 24px;
+    color: #2c333a;
+}
+
+ul.gds-unordered li::before {
+    left: 3px;
+}
+
+ul.gds-unordered--size-p-s .list-item::before,
+ol.gds-ordered--size-p-s .list-item::before {
+    top: 7px;
+}
+
+ul.gds-unordered li {
+    padding-left: 2rem;
+}
+
+ul.gds-unordered li::before {
+    background-color: #2c333a;
+}
+
+.table-bot {
+    margin-bottom: 10px !important;
+}
+
+th.head-bg-color {
+    background-color: #f5faff !important;
+}
+
+.table-bot {
+    padding-left: 0px !important;
+}
+
+/* CSS for home page added by Rekha */
+.gds-metanav .left .gds-metamenu__item {
+    color: #2c333a;
+}
+
+div#form-comp .margin-bot-24 {
+    margin-bottom: 24px;
+}
+
+div#form-comp .sign-up-form {
+    padding: 20px 20px 0px;
+    width: 100%;
+}
+
+
+/*  */
+
+@media screen and (min-width: 1024px) {
+
+    div#banner .gds-hero__background-image .gds-image,
+    div#request-banner .gds-hero__background-image .gds-image {
+        width: 30vw;
+        transform: translateX(-12%);
+    }
+
+    div#banner .gds-hero__background--primary-dark,
+    .gds-hero__with-media--primary-dark,
+    .gds-hero__full-background--primary-dark,
+    div#request-banner .gds-hero__background--primary-dark,
+    .gds-hero__with-media--primary-dark,
+    .gds-hero__full-background--primary-dark {
+        background-color: transparent;
+    }
+
+    /* div#banner .gds-hero__background-image .gds-image {
+        transform: translateX(-12%);
+    } */
+
+}
+
+@media screen and (min-width:992px) {
+    div#banner .gds-hero__content-inner--has-product-image {
+        max-width: 70%;
+    }
+
+    div#request-banner .gds-hero__content-inner--has-product-image {
+        max-width: 45%;
+    }
+
+    .heading-success {
+        padding: 80px 0;
+    }
+}
+
+/* @media all and (min-device-width:1024px) and (max-device-width:1366px){
+    .gds-hero__background-image .gds-image {
+        transform: translateX(-21%);
+    }
+} */
+
+.gds-form-input__input--is-error,
+.gds-form-input .select2-selection--is-error {
+
+    box-shadow: none !important;
+    border: 2px solid #cc0000;
+}
+
+.gds-hero__overlay {
+    width: 90%
+}
+
+.gds-table__cell.gds-table__cell--heading-xs,
+.gds-table__cell.gds-table__cell {
+    font-size: 18px;
+}
+
+.gds-table th {
+    text-align: center;
+}
+
+.dropdown-lang {
+    position: absolute;
+    top: 2rem;
+    list-style: none;
+    background: white;
+    padding: 15px;
+    box-shadow: 0px 0px 0px 1px rgb(136 132 132 / 75%);
+    width: 10rem;
+}
+
+.tab-dropdown-lang {
+    position: absolute;
+    top: 50px;
+    list-style: none;
+    background: white;
+    padding: 15px;
+    box-shadow: 0px 0px 0px 1px rgb(136 132 132 / 75%);
+    width: 10rem;
+}
+
+.display-none {
+    display: none !important;
+}
+
+.border-top-0 {
+    border-top: 0px !important;
+}
+
+[dir="ltr"] .gds-metanav .gds-submenu-items {
+    right: unset;
+}
+
+@media (min-width: 1280px) {
+    .gds-metanav .gds-submenu-items {
+        width: auto;
+    }
+}
+
+[dir="ltr"] .gds-submenu-items--right {
+    left: auto;
+}
+
+.gds-submenu-items {
+    padding: var(--spacer-l);
+    box-shadow: 0 4px 32px -4px rgb(0 26 51 / 32%);
+}
+
+.gds-submenu-item:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.gds-metanav a.gds-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.gds-submenu-items .gds-submenu-item a.gds-link .gds-link__label {
+    color: #2c333a;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    font-family: BISansNEXT;
+}
+
+#tab-lang-dropdown a.gds-link {
+    text-decoration: none;
+}
+
+ul.gds-unordered li::before {
+    width: 4px;
+    height: 4px;
+    border-radius: 76%;
+}
