@@ -14,8 +14,8 @@
                                 <div class="gds-footer__legal-links gds-footer__align-center">
                                     <nav aria-label="Legal navigation" class="gds-menus">
                                         <ul class="gds-inline-menu gds-inline-menu-- gds-inline-menu--size-p gds-inline-menu--spacer-m">
-                                            <li class="gds-inline-menu__item padding-right-20-px"> <a class="gds-link gds-link--link-intercept gds-link--menu" href="{{URL::to('/terms-of-use')}}" title="Terms of use" aria-label="Terms of use" tabindex="" target=""><span class="gds-link__label">Terms of Use</span></a> </li>
-                                            <li class="gds-inline-menu__item padding-right-20-px"> <a class="gds-link gds-link--link-intercept gds-link--menu" href="#" title="Privacy notice" aria-label="Privacy notice" tabindex="" target=""><span class="gds-link__label"></span>Privacy Policy</a> </li>
+                                            <li class="gds-inline-menu__item padding-right-20-px"> <a class="gds-link gds-link--link-intercept gds-link--menu" href="{{URL::to('/terms-of-use')}}" title="Terms of use" aria-label="Terms of use" tabindex="" target=""><span class="gds-link__label">Conditions d’utilisation</span></a> </li>
+                                            <li class="gds-inline-menu__item padding-right-20-px"> <a class="gds-link gds-link--link-intercept gds-link--menu" href="#" title="Privacy notice" aria-label="Privacy notice" tabindex="" target=""><span class="gds-link__label"></span>Politique de confidentialité</a> </li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -27,11 +27,11 @@
                                 </div>
                             </div>
                             <div class="gds-footer__legal gds-footer__align-center">
-                                <p class="gds-paragraph gds-paragraph--s gds-paragraph--align-left gds-paragraph-- gds-paragraph--spacer-m"> © 2021 Boehringer Ingelheim (Canada) Ltd./Ltée. All rights reserved.
-                                    <br> EMP-CA-101905 Last updated 04/21 </p>
-                                <p class="gds-paragraph gds-paragraph--xs gds-paragraph--align-left gds-paragraph-- gds-paragraph--spacer-m"> Accessibility </p>
-                                <p class="gds-paragraph gds-paragraph--xs gds-paragraph--align-left gds-paragraph-- gds-paragraph--spacer-m"> This website supports the dignity, independence, integration, and equal opportunity of people with disabilities and, as such,
-                                    <br> will comply with accessibility standards set out in the Accessibility for Ontarians with Disabilities Act, 2005 (AODA). </p>
+                                <p class="gds-paragraph gds-paragraph--s gds-paragraph--align-left gds-paragraph-- gds-paragraph--spacer-m"> © 2021 Boehringer Ingelheim (Canada) Ltd./Ltée. Tous droits réservés.
+                                    <br> EMP-CA-101905 Dernière mise à jour 04/21 </p>
+                                <p class="gds-paragraph gds-paragraph--xs gds-paragraph--align-left gds-paragraph-- gds-paragraph--spacer-m"> Accessibilité </p>
+                                <p class="gds-paragraph gds-paragraph--xs gds-paragraph--align-left gds-paragraph-- gds-paragraph--spacer-m">Ce site Web respecte la dignité, l'autonomie, l'intégration et l'équité des personnes handicapées et par conséquent,
+                                <br> respecte les normes d'accessibilité stipulées dans la Loi de 2005 sur l'accessibilité pour les personnes handicapées de l'Ontario (LAPHO). </p>
                             </div>
                         </div>
                     </div>

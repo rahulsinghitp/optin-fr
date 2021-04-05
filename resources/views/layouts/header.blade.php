@@ -35,8 +35,7 @@
 								<div class="gds-metanav gds-metanav--">
 									<div class="left">
 										<div class="gds-metamenu">
-											<div class="gds-metamenu__item gds-metamenu__item--"> For Canadian
-												healthcare professionals only </div>
+											<div class="gds-metamenu__item gds-metamenu__item--"> À l'intention des professionnels de la santé canadiens seulement </div>
 										</div>
 									</div>
 								</div>
@@ -45,7 +44,7 @@
 								<div class="gds-metanav gds-metanav--">
 									<div class="right">
 										<div class="gds-metamenu">
-											<div class="gds-metamenu__item gds-metamenu__item--"><a class="gds-link gds-link--link-intercept gds-link--menu gds-link--logo" href="#" title="Contact" aria-label="Contact" tabindex="" target=""><span class="gds-link__label">Contact</span></a></div>
+											<div class="gds-metamenu__item gds-metamenu__item--"><a class="gds-link gds-link--link-intercept gds-link--menu gds-link--logo" href="https://www.boehringer-ingelheim.ca/fr/contactez-nous" title="Contact" aria-label="Contact" tabindex="" target=""><span class="gds-link__label">Lien au contact</span></a></div>
 											<div class="gds-metamenu__item utility">
 												<div class="gds-dropdown-menu gds-dropdown-menu--flyout gds-dropdown-menu--space-base" aria-label="Language Navigation">
 													<button id="lang-select" class="main-link" tabindex="0" aria-expanded="false">
@@ -58,7 +57,7 @@
 															</span>
 														</span>
 														<span class="label">
-															&nbsp;&nbsp; English &nbsp;&nbsp;
+															&nbsp;&nbsp; Français &nbsp;&nbsp;
 															<span class="gds-icon gds-icon--secondary gds-icon--s gds-icon--base_chevron-down">
 																<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 																	<path fill-rule="evenodd" d="M1.793 5.5c.36-.36.928-.388 1.32-.083l.094.083L10 12.292 16.793 5.5c.36-.36.928-.388 1.32-.083l.094.083c.36.36.388.928.083 1.32l-.083.094-7.146 7.146c-.281.282-.663.44-1.061.44-.348 0-.684-.121-.95-.34l-.11-.1-7.147-7.146c-.39-.39-.39-1.023 0-1.414z">
@@ -70,8 +69,8 @@
 												</div>
 											</div>
 											<ul id="lang-dropdown" class="gds-submenu-items gds-submenu-items--right dropdown-lang display-none">
-												<li class="gds-submenu-item"><a class="gds-link gds-link--link-intercept gds-link--logo" href="{{URL::to('/')}}" title="English" aria-label="" tabindex="" target=""><span class="gds-link__label">English</span></a></li>
-												<li class="gds-submenu-item"><a class="gds-link gds-link--link-intercept gds-link--logo" href="#" title="French" aria-label="" tabindex="" target=""><span class="gds-link__label">French</span></a></li>
+												<li class="gds-submenu-item"><a class="gds-link gds-link--link-intercept gds-link--logo" href="{{URL::to('/')}}" title="Français" aria-label="" tabindex="" target=""><span class="gds-link__label">Français</span></a></li>
+												<li class="gds-submenu-item"><a class="gds-link gds-link--link-intercept gds-link--logo" href="{{ config('constants.lang-en') }}" title="English" aria-label="" tabindex="" target=""><span class="gds-link__label">English</span></a></li>
 											</ul>
 										</div>
 									</div>
@@ -106,7 +105,7 @@
 												</span>
 												<span>&nbsp;&nbsp;</span>
 												<span class="label">
-													English
+													Français
 													<span class="gds-icon gds-icon--secondary gds-icon--s gds-icon--base_chevron-down">
 														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 															<path fill-rule="evenodd" d="M1.793 5.5c.36-.36.928-.388 1.32-.083l.094.083L10 12.292 16.793 5.5c.36-.36.928-.388 1.32-.083l.094.083c.36.36.388.928.083 1.32l-.083.094-7.146 7.146c-.281.282-.663.44-1.061.44-.348 0-.684-.121-.95-.34l-.11-.1-7.147-7.146c-.39-.39-.39-1.023 0-1.414z">
@@ -125,8 +124,8 @@
 													</span>
 													Back
 												</span>
-												<li class="gds-submenu-item"><a class="gds-link gds-link--link-intercept gds-link--logo" href="{{URL::to('/')}}" title="English" aria-label="" tabindex="" target=""><span class="gds-link__label">English</span></a></li>
-												<li class="gds-submenu-item"><a class="gds-link gds-link--link-intercept gds-link--logo" href="#" title="French" aria-label="" tabindex="" target=""><span class="gds-link__label">French</span></a></li>
+												<li class="gds-submenu-item"><a class="gds-link gds-link--link-intercept gds-link--logo" href="{{URL::to('/')}}" title="Français" aria-label="" tabindex="" target=""><span class="gds-link__label">Français</span></a></li>
+												<li class="gds-submenu-item"><a class="gds-link gds-link--link-intercept gds-link--logo" href="{{ config('constants.lang-en') }}" title="English" aria-label="" tabindex="" target=""><span class="gds-link__label">English</span></a></li>
 											</ul>
 										</div>
 									</div>
@@ -145,7 +144,7 @@
 											</span>
 											<span>&nbsp;&nbsp;</span>
 											<span class="label">
-												English
+												Français
 												<span>&nbsp;&nbsp;</span>
 												<span class="gds-icon gds-icon--secondary gds-icon--s gds-icon--base_chevron-down">
 													<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -166,9 +165,9 @@
 											</span>
 											Back
 										</span>
-										<span class="mobile-label">English</span>
-										<li class="gds-submenu-item"><a class="gds-link gds-link--link-intercept gds-link--logo" href="{{URL::to('/')}}" title="English" aria-label="" tabindex="" target=""><span class="gds-link__label">English</span></a></li>
-										<li class="gds-submenu-item"><a class="gds-link gds-link--link-intercept gds-link--logo" href="#" title="French" aria-label="" tabindex="" target=""><span class="gds-link__label">French</span></a></li>
+										<span class="mobile-label">Français</span>
+										<li class="gds-submenu-item"><a class="gds-link gds-link--link-intercept gds-link--logo" href="{{URL::to('/')}}" title="Français" aria-label="" tabindex="" target=""><span class="gds-link__label">Français</span></a></li>
+										<li class="gds-submenu-item"><a class="gds-link gds-link--link-intercept gds-link--logo" href="{{ config('constants.lang-en') }}" title="English" aria-label="" tabindex="" target=""><span class="gds-link__label">English</span></a></li>
 									</ul>
 								</div>
 								<button id="mobilemenutoggle" class="mobileutilityitem breakpoint-l-max" aria-label="Main Menu">

@@ -10,8 +10,7 @@
                     <div class="gds-hero__content-inner gds-hero__content-inner--has-product-image">
                         <h1
                             class="gds-heading gds-heading--align-left gds-heading--contrast gds-heading--l heading-success">
-                            Your request has
-                            been submitted
+                            Votre demande a été envoyée
                         </h1>
                     </div>
                 </div>
@@ -39,7 +38,7 @@
     <div class="gds-cell gds-cell--spacer-m">
         <div>
             <h4 class="gds-heading gds-heading--align-left gds-heading--s thank-text">
-                Thank you for signing up for our mailing list.
+            Merci de votre abonnement à notre liste d'envoi.
             </h4>
         </div>
     </div>
@@ -48,7 +47,7 @@
 <div class=" gds-grid gds-grid--spacer-massive">
     <div class="gds-cell gds-cell--spacer-m">
         <div class="gds-btn-wrapper">
-            <button class="gds-btn gds-btn--primary"><span>DONE</span></button>
+            <button class="gds-btn gds-btn--primary"><span>Terminé</span></button>
         </div>
     </div>
 </div>
