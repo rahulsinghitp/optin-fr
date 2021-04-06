@@ -6,7 +6,7 @@
                         <div class="gds-footer__legal-section">
                             <div class="gds-footer__branding">
                                 <div class="gds-footer__logo-bi">
-                                    <a class="gds-logo" href="#" target="_parent">
+                                    <a class="gds-logo" href="https://www.boehringer-ingelheim.ca/fr/" target="_blank">
                                         <div class="gds-image gds-image--spacer-none">
                                             <picture> <img src="{{ asset('public/img/logo-footer.png') }}" alt="Boeringer Ingelheim" title="Boeringer Ingelheim" loading="lazy" class=" ls-is-cached lazyloaded"> </picture>
                                         </div> <span aria-hidden="true">Boeringer Ingelheim</span> </a>
@@ -15,7 +15,7 @@
                                     <nav aria-label="Legal navigation" class="gds-menus">
                                         <ul class="gds-inline-menu gds-inline-menu-- gds-inline-menu--size-p gds-inline-menu--spacer-m">
                                             <li class="gds-inline-menu__item padding-right-20-px"> <a class="gds-link gds-link--link-intercept gds-link--menu" href="{{URL::to('/terms-of-use')}}" title="Terms of use" aria-label="Terms of use" tabindex="" target=""><span class="gds-link__label">Conditions d’utilisation</span></a> </li>
-                                            <li class="gds-inline-menu__item padding-right-20-px"> <a class="gds-link gds-link--link-intercept gds-link--menu" href="#" title="Privacy notice" aria-label="Privacy notice" tabindex="" target=""><span class="gds-link__label"></span>Politique de confidentialité</a> </li>
+                                            <li class="gds-inline-menu__item padding-right-20-px"> <a class="gds-link gds-link--link-intercept gds-link--menu" href="https://www.boehringer-ingelheim.ca/fr/politique-relative-la-vie-priv-e" target="_blank" title="Politique de confidentialité"><span class="gds-link__label">Politique de confidentialité</span></a> </li>
                                         </ul>
                                     </nav>
                                 </div>

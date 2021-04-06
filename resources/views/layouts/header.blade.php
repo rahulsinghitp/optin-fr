@@ -1,24 +1,41 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr-CA" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<meta charset="UTF-8">
+<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="_token" content="{!! csrf_token() !!}" />
-	<title>Document</title>
+	<meta name="page-topic" content="email opt-in consent" />
+	<meta name="page-type" content="email opt-in consent" />
+	<meta name="author" content="boehringer-ingelheim.ca" />
+	<meta name="publisher" content="boehringer-ingelheim.ca" />
+	<meta name="copyright" content="Boehringer Ingelheim" />
+	<meta name="language" content="en-CA, fr-CA" />
+	<meta name="description" content="Sign up to receive communication frrom Boehringer Ingelheim" />
+	<meta name="abstract" content="Sign up to receive communication frrom Boehringer Ingelheim" />
+	<link rel="canonical" href="www.boehringer-ingelheim.ca/communications" />
+	<meta name="robots" content="index,follow,noodp,noydir" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:type" content="email opt-in consent" />
+	<meta property="og:locale" content="en-CA, fr-CA" />
+	<meta property="og:title" content="email opt-in consent" />
+	<meta property="fb:title" content="email opt-in consent" />
+	<meta property="og:url" content="www.boehringer-ingelheim.ca/communications" />
+	<meta property="og:image:type" content="image/jpeg, image/gif, image/png" />
+	<title>Email Opt-In Consent</title>
 	<link rel="preload" as="font" media="all" href="{{ asset('public/css/fonts/BIAntiquaIIMl-Bold.woff2') }}" type="font/woff2" crossorigin async />
 	<link rel="preload" as="font" media="all" href="{{ asset('public/css/fonts/BIAntiquaIIMl-Regular.woff2') }}" type="font/woff2" crossorigin async />
 	<link rel="preload" as="font" media="all" href="{{ asset('public/css/fonts/BISansNEXT-Bold.woff2') }}" type="font/woff2" crossorigin async />
 	<link rel="preload" as="font" media="all" href="{{ asset('public/css/fonts/BISansNEXT-Regular.woff2') }}" type="font/woff2" crossorigin async />
 	<link rel="stylesheet" href="{{ asset('public/css/gds-template.min.css') }}">
 	<link rel="stylesheet" href="{{ asset('public/css/custom.min.css') }}">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('public/img/favicon/apple-touch-icon.png')}}">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('public/img/favicon/favicon-32x32.png')}}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('public/img/favicon/favicon-16x16.png')}}">
+	<link rel="manifest" href="{{ asset('public/img/favicon/site.webmanifest')}}">
+	<link rel="mask-icon" href="{{ asset('public/img/favicon/safari-pinned-tab.svg')}}" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="theme-color" content="#ffffff">
 </head>
