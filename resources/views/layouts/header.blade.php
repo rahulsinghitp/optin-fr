@@ -103,7 +103,7 @@
 								<div class="logo-holder">
 									<a class="gds-logo" href="{{URL::to('/')}}" target="_parent">
 										<div class="gds-image gds-image--spacer-none">
-											<picture> <img src="{{ asset('public/img/logo-primary.png') }}" alt="Boeringer Ingelheim" loading="lazy" class=" ls-is-cached lazyloaded" title="Boeringer Ingelheim"> </picture>
+											<picture> <img src="{{ asset('public/img/logo-primary.png') }}" alt="Boeringer Ingelheim" height="80" width="160" loading="lazy" class=" ls-is-cached lazyloaded" title="Boeringer Ingelheim"> </picture>
 										</div>
 										<span aria-hidden="true">Boeringer Ingelheim</span>
 									</a>

@@ -8,7 +8,7 @@
                                 <div class="gds-footer__logo-bi">
                                     <a class="gds-logo" href="https://www.boehringer-ingelheim.ca/fr/" target="_blank">
                                         <div class="gds-image gds-image--spacer-none">
-                                            <picture> <img src="{{ asset('public/img/logo-footer.png') }}" alt="Boeringer Ingelheim" title="Boeringer Ingelheim" loading="lazy" class=" ls-is-cached lazyloaded"> </picture>
+                                            <picture> <img src="{{ asset('public/img/logo-footer.png') }}" height="56" width="112" alt="Boeringer Ingelheim" title="Boeringer Ingelheim" loading="lazy" class=" ls-is-cached lazyloaded"> </picture>
                                         </div> <span aria-hidden="true">Boeringer Ingelheim</span> </a>
                                 </div>
                                 <div class="gds-footer__legal-links gds-footer__align-center">
