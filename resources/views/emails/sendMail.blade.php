@@ -7,15 +7,15 @@
     <title>Signing up information</title>
 </head>
 <body>
-    <p>Salutation: <b>{{ $details['salutation'] }}</b></p>
-    <p>First Name: <b>{{ $details['first_name'] }}</b></p>
-    <p>Last Name: <b>{{ $details['last_name'] }}</b></p>
-    <p>Office address 1: <b>{{ $details['office_address_1'] }}</b></p>
-    <p>Office address 2: <b>{{ $details['office_address_2'] }}</b></p>
-    <p>City: <b>{{ $details['city'] }}</b></p>
-    <p>Province or territory: <b>{{ $details['province'] }}</b></p>
-    <p>Postal code: <b>{{ $details['postal_code'] }}</b></p>
-    <p>Specialty: <b>{{ $details['speciality'] }}</b></p>
-    <p>Email Address: <b>{{ $details['email'] }}</b></p>
+    <p>Titre: <b>{{ $details['salutation'] }}</b></p>
+    <p>Prénom: <b>{{ $details['first_name'] }}</b></p>
+    <p>Nom de famille: <b>{{ $details['last_name'] }}</b></p>
+    <p>Adresse professionnelle 1: <b>{{ $details['office_address_1'] }}</b></p>
+    <p>Adresse professionnelle 2: <b>{{ $details['office_address_2'] }}</b></p>
+    <p>Ville: <b>{{ $details['city'] }}</b></p>
+    <p>Province ou territoire: <b>{{ $details['province'] }}</b></p>
+    <p>Code postal: <b>{{ $details['postal_code'] }}</b></p>
+    <p>Spécialité: <b>{{ $details['speciality'] }}</b></p>
+    <p>Adresse courriel: <b>{{ $details['email'] }}</b></p>
 </body>
 </html>
