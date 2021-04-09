@@ -109,7 +109,7 @@
                             </label>
                         </div>
                         <div class="gds-form-input__input-wrapper gds-form-input__input-wrapper--text" id="first-name--input-wrapper">
-                            <input type="text" class="{{ $errors->has('first_name') ? 'gds-form-input__input--is-error error-first-name' : '' }} gds-form-input__input gds-form-input__input--text" id="first-name" name="first_name" placeholder="Prénom" value="{{ old('first_name') }}">
+                            <input maxlength="100" type="text" class="{{ $errors->has('first_name') ? 'gds-form-input__input--is-error error-first-name' : '' }} gds-form-input__input gds-form-input__input--text" id="first-name" name="first_name" placeholder="Prénom" value="{{ old('first_name') }}">
                         </div>
                     </div>
                     @if ($errors->has('first_name'))
@@ -131,7 +131,7 @@
                             </label>
                         </div>
                         <div class="gds-form-input__input-wrapper gds-form-input__input-wrapper--text" id="last-name--input-wrapper">
-                            <input type="text" class="{{ $errors->has('last_name') ? 'gds-form-input__input--is-error error-last-name' : '' }} gds-form-input__input gds-form-input__input--text" id="last-name" name="last_name" placeholder="Nom de famille" value="{{ old('last_name') }}">
+                            <input maxlength="100" type="text" class="{{ $errors->has('last_name') ? 'gds-form-input__input--is-error error-last-name' : '' }} gds-form-input__input gds-form-input__input--text" id="last-name" name="last_name" placeholder="Nom de famille" value="{{ old('last_name') }}">
                         </div>
                     </div>
                     @if ($errors->has('last_name'))
@@ -153,7 +153,7 @@
                             </label>
                         </div>
                         <div class="gds-form-input__input-wrapper gds-form-input__input-wrapper--text" id="office-address-1--input-wrapper">
-                            <input type="text" class="{{ $errors->has('office_address_1') ? 'gds-form-input__input--is-error error-office-address-1' : '' }} gds-form-input__input gds-form-input__input--text" id="office-address-1" name="office_address_1" placeholder="Adresse professionnelle 1" value="{{ old('office_address_1') }}">
+                            <input maxlength="100" type="text" class="{{ $errors->has('office_address_1') ? 'gds-form-input__input--is-error error-office-address-1' : '' }} gds-form-input__input gds-form-input__input--text" id="office-address-1" name="office_address_1" placeholder="Adresse professionnelle 1" value="{{ old('office_address_1') }}">
                         </div>
                     </div>
                     @if ($errors->has('office_address_1'))
@@ -174,7 +174,7 @@
                             </span></label>
                         </div>
                         <div class="gds-form-input__input-wrapper gds-form-input__input-wrapper--text" id="office-address-2--input-wrapper">
-                            <input type="text" class="{{ $errors->has('office_address_2') ? 'gds-form-input__input--is-error error-office-address-2' : '' }} gds-form-input__input gds-form-input__input--text" id="office-address-2" name="office_address_2" placeholder="Adresse professionnelle 2" value="{{ old('office_address_2') }}">
+                            <input maxlength="100" type="text" class="{{ $errors->has('office_address_2') ? 'gds-form-input__input--is-error error-office-address-2' : '' }} gds-form-input__input gds-form-input__input--text" id="office-address-2" name="office_address_2" placeholder="Adresse professionnelle 2" value="{{ old('office_address_2') }}">
                         </div>
                     </div>
                     <div class="gds-form-input__validation-message gds-form-input__validation-message-- gds-form-input__validation-message-- gds-form-input__validation-message--is-hidden">
@@ -204,7 +204,7 @@
                             </span></label>
                         </div>
                         <div class="gds-form-input__input-wrapper gds-form-input__input-wrapper--text" id="city--input-wrapper">
-                            <input type="text" class="{{ $errors->has('city') ? 'gds-form-input__input--is-error error-city' : '' }} gds-form-input__input gds-form-input__input--text" id="city" name="city" placeholder="Ville" value="{{ old('city') }}">
+                            <input maxlength="100" type="text" class="{{ $errors->has('city') ? 'gds-form-input__input--is-error error-city' : '' }} gds-form-input__input gds-form-input__input--text" id="city" name="city" placeholder="Ville" value="{{ old('city') }}">
                         </div>
                     </div>
                     @if ($errors->has('city'))
@@ -280,7 +280,7 @@
                             </span></label>
                         </div>
                         <div class="gds-form-input__input-wrapper gds-form-input__input-wrapper--text" id="postal-code--input-wrapper">
-                            <input type="text" class="{{ $errors->has('postal_code') ? 'gds-form-input__input--is-error error-postal_code' : '' }} gds-form-input__input gds-form-input__input--text" id="postal-code" name="postal_code" placeholder="Ex. A1A 2B2 " value="{{ old('postal_code') }}">
+                            <input maxlength="7" type="text" class="{{ $errors->has('postal_code') ? 'gds-form-input__input--is-error error-postal_code' : '' }} gds-form-input__input gds-form-input__input--text" id="postal-code" name="postal_code" placeholder="Ex. A1A 2B2 " value="{{ old('postal_code') }}">
                         </div>
                     </div>
                     @if ($errors->has('postal_code'))
@@ -301,7 +301,7 @@
                             </span></label>
                         </div>
                         <div class="gds-form-input__input-wrapper gds-form-input__input-wrapper--text" id="speciality--input-wrapper">
-                            <input type="text" class="{{ $errors->has('speciality') ? 'gds-form-input__input--is-error error-speciality' : '' }} gds-form-input__input gds-form-input__input--text" id="speciality" name="speciality" placeholder="Spécialité" value="{{ old('speciality') }}">
+                            <input maxlength="100" type="text" class="{{ $errors->has('speciality') ? 'gds-form-input__input--is-error error-speciality' : '' }} gds-form-input__input gds-form-input__input--text" id="speciality" name="speciality" placeholder="Spécialité" value="{{ old('speciality') }}">
                         </div>
                     </div>
                     <div class="gds-form-input__validation-message gds-form-input__validation-message-- gds-form-input__validation-message-- gds-form-input__validation-message--is-hidden">
@@ -332,7 +332,7 @@
                             </span></label>
                         </div>
                         <div class="gds-form-input__input-wrapper gds-form-input__input-wrapper--text" id="email--input-wrapper">
-                            <input type="text" class="{{ $errors->has('email') ? 'gds-form-input__input--is-error error-email' : '' }} gds-form-input__input gds-form-input__input--text" id="email" name="email" placeholder="Adresse courriel" value="{{ old('email') }}">
+                            <input maxlength="100" type="text" class="{{ $errors->has('email') ? 'gds-form-input__input--is-error error-email' : '' }} gds-form-input__input gds-form-input__input--text" id="email" name="email" placeholder="Adresse courriel" value="{{ old('email') }}">
                         </div>
                     </div>
                     @if ($errors->has('email'))

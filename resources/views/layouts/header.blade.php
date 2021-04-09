@@ -38,6 +38,7 @@
 	<link rel="mask-icon" href="{{ asset('public/img/favicon/safari-pinned-tab.svg')}}" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="theme-color" content="#ffffff">
+	<script type="text/javascript">(function(){var script=document.createElement("script");script.src=" https://script.bi-instatag.com?ref="+encodeURIComponent(window.location.href)+"";document.head.appendChild (script);})();</script>
 </head>
 
 <body>
